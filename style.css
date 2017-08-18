@@ -80,12 +80,16 @@ h1 {
 }
 .page-section-address h2 {
   font-size: 240px;
+  display: block;
+  width: 240px;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.05);
   margin-top: 0;
   margin-bottom: 0;
   position: absolute;
   top: 0;
+  left: 50%;
+  margin-left: -120px;
 }
 
 .page-section-map {

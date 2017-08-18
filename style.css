@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+}
+
+h1, h2, h3, p {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.page-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+  width: 100%;
+  text-align: center;
+  background: #fff;
+}
+
+.page-section-header {
+  height: 100vh;
+  color: #555;
+  background-image: url("https://image.ibb.co/eSR6xF/bank.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  padding: 0 0 0 0;
+}
+.page-section-header h1 {
+  margin-bottom: 0;
+}
+.page-section-header p {
+  margin-top: 0;
+}
+
+.inside-header {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.page-section-address {
+  position: relative;
+}
+.page-section-address h2 {
+  font-size: 240px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.05);
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 0;
+}
+
+.page-section-map {
+  padding: 0;
+  display: block;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 800px) {
+  .google-maps {
+    padding-bottom: 75%;
+  }
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.page-section-hotels {
+  background: #fff;
+  text-align: center;
+  width: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.hotels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.hotel {
+  text-align: center;
+  padding: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.hotel p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.page-section-shuttle {
+  background: #eee;
+}
+.page-section-shuttle li {
+  text-align: left;
+}
+
+.page-section-address {
+  padding: 120px;
+}
+
+.page-section-registries {
+  background-color: #444;
+  color: #fff;
+}
+.page-section-registries a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.half-width {
+  width: 300px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
